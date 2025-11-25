@@ -1,31 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="ms">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title></title>
-	<meta name="generator" content="LibreOffice 24.8.1.2 (Linux)"/>
-	<meta name="created" content="00:00:00"/>
-	<meta name="changed" content="00:00:00"/>
-	<style type="text/css">
-		@page { size: 8.27in 11.69in; margin: 0.79in }
-		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
-		pre { background: transparent }
-		pre.western { font-family: "Liberation Mono", monospace; font-size: 10pt }
-		pre.cjk { font-family: "NSimSun", monospace; font-size: 10pt }
-		pre.ctl { font-family: "Liberation Mono", monospace; font-size: 10pt }
-	</style>
-</head>
-<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre class="western">&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;ms&quot;&gt;
-&lt;head&gt;
-    &lt;meta charset=&quot;UTF-8&quot;&gt;
-    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-    &lt;title&gt;Juara Tandas Amir - Pengesan Latihan&lt;/title&gt;
-    &lt;!-- Muat turun Tailwind CSS --&gt;
-    &lt;script src=&quot;https://cdn.tailwindcss.com&quot;&gt;&lt;/script&gt;
-    &lt;!-- Muat turun fon Urbanist dari Google Fonts --&gt;
-    &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700;800&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
-    &lt;style&gt;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juara Tandas Amir - Pengesan Latihan</title>
+    <!-- Muat turun Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Muat turun fon Urbanist dari Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
         /* Tetapkan fon Urbanist dan latar belakang */
         body {
             font-family: 'Urbanist', sans-serif;
@@ -82,175 +65,175 @@
                 min-width: 100% !important;
             }
         }
-    &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
+    </style>
+</head>
+<body>
 
-    &lt;div class=&quot;max-w-7xl mx-auto&quot;&gt;
-        &lt;!-- HEADER: Cerita Utama Aplikasi --&gt;
-        &lt;header class=&quot;color-primary-yellow p-6 rounded-3xl shadow-lg mb-8 border-4 border-[#272831] relative&quot;&gt;
-            &lt;h1 class=&quot;text-4xl md:text-5xl font-extrabold color-dark-text flex items-center&quot;&gt;
-                &lt;span id=&quot;student-name-display&quot;&gt;AMIR&lt;/span&gt;: JUARA TANDAS! 🏆
-                &lt;!-- Butang Edit Tetapan --&gt;
-                &lt;button id=&quot;edit-settings-btn&quot; class=&quot;ml-4 p-2 bg-white rounded-full shadow-md hover:bg-gray-100 transition&quot;&gt;
-                    &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;h-5 w-5 color-dark-text&quot; viewBox=&quot;0 0 20 20&quot; fill=&quot;currentColor&quot;&gt;
-                        &lt;path d=&quot;M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zm-5.637 5.637l-6.364 6.364V17h2.414l6.364-6.364-2.828-2.828z&quot; /&gt;
-                    &lt;/svg&gt;
-                &lt;/button&gt;
-            &lt;/h1&gt;
-            &lt;p class=&quot;text-xl mt-2 font-medium color-dark-text&quot;&gt;
-                &lt;span id=&quot;school-location-display&quot;&gt;Lokasi Sekolah Pelatih Contoh&lt;/span&gt;
-            &lt;/p&gt;
-            &lt;!-- Kawalan Navigasi Bulan/Tarikh --&gt;
-            &lt;div class=&quot;mt-4 flex items-center justify-between bg-white/70 p-2 rounded-xl&quot;&gt;
-                &lt;button id=&quot;prev-month-btn&quot; class=&quot;p-2 bg-gray-300 rounded-lg hover:bg-gray-400 transition color-dark-text font-bold text-sm sm:text-base&quot;&gt;
-                    &amp;lt; BULAN LEPAS
-                &lt;/button&gt;
-                &lt;p class=&quot;text-lg sm:text-xl font-extrabold color-dark-text&quot; id=&quot;current-month-display&quot;&gt;
+    <div class="max-w-7xl mx-auto">
+        <!-- HEADER: Cerita Utama Aplikasi -->
+        <header class="color-primary-yellow p-6 rounded-3xl shadow-lg mb-8 border-4 border-[#272831] relative">
+            <h1 class="text-4xl md:text-5xl font-extrabold color-dark-text flex items-center">
+                <span id="student-name-display">AMIR</span>: JUARA TANDAS! 🏆
+                <!-- Butang Edit Tetapan -->
+                <button id="edit-settings-btn" class="ml-4 p-2 bg-white rounded-full shadow-md hover:bg-gray-100 transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 color-dark-text" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zm-5.637 5.637l-6.364 6.364V17h2.414l6.364-6.364-2.828-2.828z" />
+                    </svg>
+                </button>
+            </h1>
+            <p class="text-xl mt-2 font-medium color-dark-text">
+                <span id="school-location-display">Lokasi Sekolah Pelatih Contoh</span>
+            </p>
+            <!-- Kawalan Navigasi Bulan/Tarikh -->
+            <div class="mt-4 flex items-center justify-between bg-white/70 p-2 rounded-xl">
+                <button id="prev-month-btn" class="p-2 bg-gray-300 rounded-lg hover:bg-gray-400 transition color-dark-text font-bold text-sm sm:text-base">
+                    &lt; BULAN LEPAS
+                </button>
+                <p class="text-lg sm:text-xl font-extrabold color-dark-text" id="current-month-display">
                     Tarikh: 1hb November 2025 - 30 November 2025
-                &lt;/p&gt;
-                &lt;button id=&quot;next-month-btn&quot; class=&quot;p-2 bg-gray-300 rounded-lg hover:bg-gray-400 transition color-dark-text font-bold text-sm sm:text-base&quot;&gt;
-                    BULAN DEPAN &amp;gt;
-                &lt;/button&gt;
-            &lt;/div&gt;
-        &lt;/header&gt;
+                </p>
+                <button id="next-month-btn" class="p-2 bg-gray-300 rounded-lg hover:bg-gray-400 transition color-dark-text font-bold text-sm sm:text-base">
+                    BULAN DEPAN &gt;
+                </button>
+            </div>
+        </header>
 
-        &lt;!-- KAD UTAMA &amp; STATISTIK --&gt;
-        &lt;div class=&quot;grid grid-cols-1 lg:grid-cols-4 gap-6 mb-8&quot;&gt;
-            &lt;!-- Kad Legenda / Kod --&gt;
-            &lt;div class=&quot;lg:col-span-1 p-6 bg-white rounded-2xl shadow-xl border-t-8 border-b-8 border-gray-200&quot;&gt;
-                &lt;h2 class=&quot;text-2xl font-bold mb-3 color-dark-text&quot;&gt;Kod Pengumpulan Data:&lt;/h2&gt;
-                &lt;ul class=&quot;space-y-3 font-semibold text-lg&quot;&gt;
-                    &lt;li class=&quot;flex items-center&quot;&gt;
-                        &lt;span class=&quot;mr-3 text-2xl&quot; style=&quot;color:#5FC756;&quot;&gt;⭐&lt;/span&gt;
-                        &lt;span class=&quot;text-[#5FC756]&quot;&gt;2&lt;/span&gt; = Kencing/Berak di Tandas (Juara!)
-                    &lt;/li&gt;
-                    &lt;li class=&quot;flex items-center&quot;&gt;
-                        &lt;span class=&quot;mr-3 text-2xl&quot; style=&quot;color:#FDA014;&quot;&gt;🤔&lt;/span&gt;
-                        &lt;span class=&quot;text-[#FDA014]&quot;&gt;1&lt;/span&gt; = Pergi Tandas Tapi Tidak Berjaya (Cuba Lagi!)
-                    &lt;/li&gt;
-                    &lt;li class=&quot;flex items-center&quot;&gt;
-                        &lt;span class=&quot;mr-3 text-2xl&quot; style=&quot;color:#E14535;&quot;&gt;💧&lt;/span&gt;
-                        &lt;span class=&quot;text-[#E14535]&quot;&gt;0&lt;/span&gt; = Kencing/Berak di Luar (Terlupa)
-                    &lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p class=&quot;mt-4 text-sm text-gray-500&quot;&gt;
-                    &lt;span id=&quot;user-id-display&quot; class=&quot;font-mono text-xs break-all&quot;&gt;&lt;/span&gt;
-                &lt;/p&gt;
-            &lt;/div&gt;
+        <!-- KAD UTAMA & STATISTIK -->
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 mb-8">
+            <!-- Kad Legenda / Kod -->
+            <div class="lg:col-span-1 p-6 bg-white rounded-2xl shadow-xl border-t-8 border-b-8 border-gray-200">
+                <h2 class="text-2xl font-bold mb-3 color-dark-text">Kod Pengumpulan Data:</h2>
+                <ul class="space-y-3 font-semibold text-lg">
+                    <li class="flex items-center">
+                        <span class="mr-3 text-2xl" style="color:#5FC756;">⭐</span>
+                        <span class="text-[#5FC756]">2</span> = Kencing/Berak di Tandas (Juara!)
+                    </li>
+                    <li class="flex items-center">
+                        <span class="mr-3 text-2xl" style="color:#FDA014;">🤔</span>
+                        <span class="text-[#FDA014]">1</span> = Pergi Tandas Tapi Tidak Berjaya (Cuba Lagi!)
+                    </li>
+                    <li class="flex items-center">
+                        <span class="mr-3 text-2xl" style="color:#E14535;">💧</span>
+                        <span class="text-[#E14535]">0</span> = Kencing/Berak di Luar (Terlupa)
+                    </li>
+                </ul>
+                <p class="mt-4 text-sm text-gray-500">
+                    <span id="user-id-display" class="font-mono text-xs break-all"></span>
+                </p>
+            </div>
 
-            &lt;!-- Kad Peratusan Kejayaan --&gt;
-            &lt;div class=&quot;lg:col-span-3 p-6 bg-white rounded-2xl shadow-xl border-t-8 border-b-8 border-gray-200&quot;&gt;
-                &lt;h2 class=&quot;text-2xl font-bold mb-3 color-dark-text&quot;&gt;Statistik Kejayaan (&lt;span id=&quot;stats-month-year&quot;&gt;&lt;/span&gt;):&lt;/h2&gt;
-                &lt;div class=&quot;flex items-center space-x-4&quot;&gt;
-                    &lt;div class=&quot;text-6xl font-extrabold&quot; id=&quot;success-percentage&quot;&gt;0%&lt;/div&gt;
-                    &lt;div class=&quot;flex-1&quot;&gt;
-                        &lt;p class=&quot;text-xl font-semibold mb-2&quot;&gt;Peratus kencing di tandas (%)&lt;/p&gt;
-                        &lt;div class=&quot;w-full bg-[#EFEFF0] rounded-full h-4&quot;&gt;
-                            &lt;div id=&quot;progress-bar&quot; class=&quot;h-4 rounded-full color-success-green transition-all duration-500&quot; style=&quot;width: 0%&quot;&gt;&lt;/div&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-                &lt;p class=&quot;mt-4 text-sm text-gray-500&quot;&gt;Jumlah Kejayaan: &lt;span id=&quot;total-success&quot; class=&quot;font-bold&quot;&gt;0&lt;/span&gt; / &lt;span id=&quot;total-attempts&quot; class=&quot;font-bold&quot;&gt;0&lt;/span&gt;&lt;/p&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
+            <!-- Kad Peratusan Kejayaan -->
+            <div class="lg:col-span-3 p-6 bg-white rounded-2xl shadow-xl border-t-8 border-b-8 border-gray-200">
+                <h2 class="text-2xl font-bold mb-3 color-dark-text">Statistik Kejayaan (<span id="stats-month-year"></span>):</h2>
+                <div class="flex items-center space-x-4">
+                    <div class="text-6xl font-extrabold" id="success-percentage">0%</div>
+                    <div class="flex-1">
+                        <p class="text-xl font-semibold mb-2">Peratus kencing di tandas (%)</p>
+                        <div class="w-full bg-[#EFEFF0] rounded-full h-4">
+                            <div id="progress-bar" class="h-4 rounded-full color-success-green transition-all duration-500" style="width: 0%"></div>
+                        </div>
+                    </div>
+                </div>
+                <p class="mt-4 text-sm text-gray-500">Jumlah Kejayaan: <span id="total-success" class="font-bold">0</span> / <span id="total-attempts" class="font-bold">0</span></p>
+            </div>
+        </div>
 
-        &lt;!-- GRID UTAMA PENGUMPULAN DATA --&gt;
-        &lt;div class=&quot;bg-white p-4 rounded-2xl shadow-xl overflow-x-auto&quot;&gt;
-            &lt;h2 class=&quot;text-2xl font-bold mb-4 color-dark-text&quot;&gt;Jadual Pengesanan:&lt;/h2&gt;
-            &lt;div id=&quot;data-grid&quot; class=&quot;min-w-full&quot;&gt;
-                &lt;!-- Grid akan dihasilkan oleh JavaScript di sini --&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
+        <!-- GRID UTAMA PENGUMPULAN DATA -->
+        <div class="bg-white p-4 rounded-2xl shadow-xl overflow-x-auto">
+            <h2 class="text-2xl font-bold mb-4 color-dark-text">Jadual Pengesanan:</h2>
+            <div id="data-grid" class="min-w-full">
+                <!-- Grid akan dihasilkan oleh JavaScript di sini -->
+            </div>
+        </div>
         
-        &lt;!-- BAHAGIAN BUTANG TINDAKAN --&gt;
-        &lt;div class=&quot;flex flex-wrap justify-center space-x-4 mt-8&quot;&gt;
-            &lt;!-- Input fail tersembunyi untuk Import Data --&gt;
-            &lt;input type=&quot;file&quot; id=&quot;import-file-input&quot; class=&quot;hidden&quot; accept=&quot;application/json&quot;&gt; 
+        <!-- BAHAGIAN BUTANG TINDAKAN -->
+        <div class="flex flex-wrap justify-center space-x-4 mt-8">
+            <!-- Input fail tersembunyi untuk Import Data -->
+            <input type="file" id="import-file-input" class="hidden" accept="application/json"> 
             
-            &lt;button id=&quot;import-data-btn&quot; class=&quot;p-3 my-2 font-bold rounded-full bg-gray-300 hover:bg-gray-400 transition color-dark-text&quot;&gt;IMPORT DATA&lt;/button&gt;
-            &lt;button id=&quot;export-data-btn&quot; class=&quot;p-3 my-2 font-bold rounded-full bg-gray-300 hover:bg-gray-400 transition color-dark-text&quot;&gt;EXPORT DATA&lt;/button&gt;
-            &lt;button id=&quot;print-btn&quot; class=&quot;p-3 my-2 font-bold rounded-full bg-gray-300 hover:bg-gray-400 transition color-dark-text&quot;&gt;PRINT&lt;/button&gt;
-            &lt;button id=&quot;download-pdf-btn&quot; class=&quot;p-3 my-2 font-bold rounded-full color-attempt-orange hover:bg-[#ffb028] transition color-dark-text&quot;&gt;DOWNLOAD (PDF)&lt;/button&gt;
-            &lt;button id=&quot;reset-data-btn&quot; class=&quot;p-3 my-2 font-bold rounded-full bg-red-500 hover:bg-red-600 transition text-white&quot;&gt;SET SEMULA DATA BULAN INI&lt;/button&gt;
-        &lt;/div&gt;
-        &lt;p class=&quot;text-sm text-center text-gray-500 mt-4&quot;&gt;Nota: Data disimpan secara automatik dalam Firestore. Gunakan import/export untuk sandaran.&lt;/p&gt;
-    &lt;/div&gt;
+            <button id="import-data-btn" class="p-3 my-2 font-bold rounded-full bg-gray-300 hover:bg-gray-400 transition color-dark-text">IMPORT DATA</button>
+            <button id="export-data-btn" class="p-3 my-2 font-bold rounded-full bg-gray-300 hover:bg-gray-400 transition color-dark-text">EXPORT DATA</button>
+            <button id="print-btn" class="p-3 my-2 font-bold rounded-full bg-gray-300 hover:bg-gray-400 transition color-dark-text">PRINT</button>
+            <button id="download-pdf-btn" class="p-3 my-2 font-bold rounded-full color-attempt-orange hover:bg-[#ffb028] transition color-dark-text">DOWNLOAD (PDF)</button>
+            <button id="reset-data-btn" class="p-3 my-2 font-bold rounded-full bg-red-500 hover:bg-red-600 transition text-white">SET SEMULA DATA BULAN INI</button>
+        </div>
+        <p class="text-sm text-center text-gray-500 mt-4">Nota: Data disimpan secara automatik dalam Firestore. Gunakan import/export untuk sandaran.</p>
+    </div>
 
-    &lt;!-- MODAL POPUP (Mesej Status Ringkas) --&gt;
-    &lt;div id=&quot;message-modal&quot; class=&quot;fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center p-4 z-50&quot;&gt;
-        &lt;div class=&quot;bg-white p-6 rounded-xl shadow-2xl max-w-sm w-full text-center&quot;&gt;
-            &lt;h3 id=&quot;modal-title&quot; class=&quot;text-2xl font-bold mb-4 color-dark-text&quot;&gt;&lt;/h3&gt;
-            &lt;p id=&quot;modal-message&quot; class=&quot;mb-6&quot;&gt;&lt;/p&gt;
-            &lt;button onclick=&quot;document.getElementById('message-modal').classList.add('hidden');&quot; class=&quot;p-2 w-full font-bold rounded-lg color-primary-yellow hover:opacity-80 color-dark-text&quot;&gt;OK&lt;/button&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
+    <!-- MODAL POPUP (Mesej Status Ringkas) -->
+    <div id="message-modal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center p-4 z-50">
+        <div class="bg-white p-6 rounded-xl shadow-2xl max-w-sm w-full text-center">
+            <h3 id="modal-title" class="text-2xl font-bold mb-4 color-dark-text"></h3>
+            <p id="modal-message" class="mb-6"></p>
+            <button onclick="document.getElementById('message-modal').classList.add('hidden');" class="p-2 w-full font-bold rounded-lg color-primary-yellow hover:opacity-80 color-dark-text">OK</button>
+        </div>
+    </div>
     
-    &lt;!-- MODAL EDIT DATA (Pengumpulan Data) --&gt;
-    &lt;div id=&quot;edit-modal&quot; class=&quot;fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center p-4 z-50&quot;&gt;
-        &lt;div class=&quot;bg-white p-6 rounded-xl shadow-2xl max-w-sm w-full text-center border-t-8 color-primary-yellow&quot;&gt;
-            &lt;h3 class=&quot;text-2xl font-bold mb-2 color-dark-text&quot;&gt;Kemaskini Data&lt;/h3&gt;
-            &lt;p id=&quot;edit-modal-context&quot; class=&quot;mb-4 text-sm text-gray-600&quot;&gt;&lt;/p&gt;
+    <!-- MODAL EDIT DATA (Pengumpulan Data) -->
+    <div id="edit-modal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center p-4 z-50">
+        <div class="bg-white p-6 rounded-xl shadow-2xl max-w-sm w-full text-center border-t-8 color-primary-yellow">
+            <h3 class="text-2xl font-bold mb-2 color-dark-text">Kemaskini Data</h3>
+            <p id="edit-modal-context" class="mb-4 text-sm text-gray-600"></p>
             
-            &lt;div class=&quot;space-y-3 mb-6&quot;&gt;
-                &lt;!-- Pilihan Kod 2 (Juara!) --&gt;
-                &lt;button data-code=&quot;2&quot; class=&quot;code-btn w-full p-3 font-bold rounded-lg bg-green-500 hover:bg-green-600 transition text-white flex items-center justify-center&quot;&gt;
-                    &lt;span class=&quot;mr-3 text-2xl&quot;&gt;⭐&lt;/span&gt; Kod 2 (Juara!)
-                &lt;/button&gt;
+            <div class="space-y-3 mb-6">
+                <!-- Pilihan Kod 2 (Juara!) -->
+                <button data-code="2" class="code-btn w-full p-3 font-bold rounded-lg bg-green-500 hover:bg-green-600 transition text-white flex items-center justify-center">
+                    <span class="mr-3 text-2xl">⭐</span> Kod 2 (Juara!)
+                </button>
                 
-                &lt;!-- Pilihan Kod 1 (Cuba Lagi!) --&gt;
-                &lt;button data-code=&quot;1&quot; class=&quot;code-btn w-full p-3 font-bold rounded-lg bg-yellow-500 hover:bg-yellow-600 transition text-white flex items-center justify-center&quot;&gt;
-                    &lt;span class=&quot;mr-3 text-2xl&quot;&gt;🤔&lt;/span&gt; Kod 1 (Cuba Lagi!)
-                &lt;/button&gt;
+                <!-- Pilihan Kod 1 (Cuba Lagi!) -->
+                <button data-code="1" class="code-btn w-full p-3 font-bold rounded-lg bg-yellow-500 hover:bg-yellow-600 transition text-white flex items-center justify-center">
+                    <span class="mr-3 text-2xl">🤔</span> Kod 1 (Cuba Lagi!)
+                </button>
                 
-                &lt;!-- Pilihan Kod 0 (Terlupa) --&gt;
-                &lt;button data-code=&quot;0&quot; class=&quot;code-btn w-full p-3 font-bold rounded-lg bg-red-500 hover:bg-red-600 transition text-white flex items-center justify-center&quot;&gt;
-                    &lt;span class=&quot;mr-3 text-2xl&quot;&gt;💧&lt;/span&gt; Kod 0 (Terlupa)
-                &lt;/button&gt;
-            &lt;/div&gt;
+                <!-- Pilihan Kod 0 (Terlupa) -->
+                <button data-code="0" class="code-btn w-full p-3 font-bold rounded-lg bg-red-500 hover:bg-red-600 transition text-white flex items-center justify-center">
+                    <span class="mr-3 text-2xl">💧</span> Kod 0 (Terlupa)
+                </button>
+            </div>
             
-            &lt;div class=&quot;flex space-x-3&quot;&gt;
-                &lt;button id=&quot;remove-data-btn&quot; class=&quot;flex-1 p-2 font-bold rounded-lg bg-gray-400 hover:bg-gray-500 transition text-white&quot;&gt;
+            <div class="flex space-x-3">
+                <button id="remove-data-btn" class="flex-1 p-2 font-bold rounded-lg bg-gray-400 hover:bg-gray-500 transition text-white">
                     BUANG DATA
-                &lt;/button&gt;
-                &lt;button id=&quot;cancel-edit-btn&quot; class=&quot;flex-1 p-2 font-bold rounded-lg bg-gray-200 hover:bg-gray-300 transition color-dark-text&quot;&gt;
+                </button>
+                <button id="cancel-edit-btn" class="flex-1 p-2 font-bold rounded-lg bg-gray-200 hover:bg-gray-300 transition color-dark-text">
                     BATAL
-                &lt;/button&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
+                </button>
+            </div>
+        </div>
+    </div>
 
-    &lt;!-- MODAL TETAPAN (Nama dan Lokasi Sekolah) --&gt;
-    &lt;div id=&quot;settings-modal&quot; class=&quot;fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center p-4 z-50&quot;&gt;
-        &lt;div class=&quot;bg-white p-8 rounded-xl shadow-2xl max-w-md w-full border-t-8 border-blue-500&quot;&gt;
-            &lt;h3 class=&quot;text-2xl font-bold mb-6 color-dark-text&quot;&gt;Tetapan Aplikasi&lt;/h3&gt;
-            &lt;div class=&quot;space-y-4&quot;&gt;
-                &lt;div&gt;
-                    &lt;label for=&quot;setting-student-name&quot; class=&quot;block text-sm font-medium text-gray-700 mb-1&quot;&gt;Nama Pelajar:&lt;/label&gt;
-                    &lt;input type=&quot;text&quot; id=&quot;setting-student-name&quot; class=&quot;w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500&quot; placeholder=&quot;Contoh: AMIR&quot;&gt;
-                &lt;/div&gt;
-                &lt;div&gt;
-                    &lt;label for=&quot;setting-school-location&quot; class=&quot;block text-sm font-medium text-gray-700 mb-1&quot;&gt;Lokasi Sekolah Pelatih:&lt;/label&gt;
-                    &lt;input type=&quot;text&quot; id=&quot;setting-school-location&quot; class=&quot;w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500&quot; placeholder=&quot;Contoh: SK Taman Indah&quot;&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;mt-6 flex justify-end space-x-3&quot;&gt;
-                &lt;button id=&quot;cancel-settings-btn&quot; class=&quot;p-3 font-bold rounded-lg bg-gray-200 hover:bg-gray-300 transition color-dark-text&quot;&gt;
+    <!-- MODAL TETAPAN (Nama dan Lokasi Sekolah) -->
+    <div id="settings-modal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center p-4 z-50">
+        <div class="bg-white p-8 rounded-xl shadow-2xl max-w-md w-full border-t-8 border-blue-500">
+            <h3 class="text-2xl font-bold mb-6 color-dark-text">Tetapan Aplikasi</h3>
+            <div class="space-y-4">
+                <div>
+                    <label for="setting-student-name" class="block text-sm font-medium text-gray-700 mb-1">Nama Pelajar:</label>
+                    <input type="text" id="setting-student-name" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" placeholder="Contoh: AMIR">
+                </div>
+                <div>
+                    <label for="setting-school-location" class="block text-sm font-medium text-gray-700 mb-1">Lokasi Sekolah Pelatih:</label>
+                    <input type="text" id="setting-school-location" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" placeholder="Contoh: SK Taman Indah">
+                </div>
+            </div>
+            <div class="mt-6 flex justify-end space-x-3">
+                <button id="cancel-settings-btn" class="p-3 font-bold rounded-lg bg-gray-200 hover:bg-gray-300 transition color-dark-text">
                     BATAL
-                &lt;/button&gt;
-                &lt;button id=&quot;save-settings-btn&quot; class=&quot;p-3 font-bold rounded-lg bg-blue-500 hover:bg-blue-600 transition text-white&quot;&gt;
+                </button>
+                <button id="save-settings-btn" class="p-3 font-bold rounded-lg bg-blue-500 hover:bg-blue-600 transition text-white">
                     SIMPAN
-                &lt;/button&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
+                </button>
+            </div>
+        </div>
+    </div>
 
 
-    &lt;script type=&quot;module&quot;&gt;
+    <script type="module">
         // Import Firebase SDKs. Pastikan semua yang diperlukan diimport di sini.
-        import { initializeApp as fbInitializeApp } from &quot;https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js&quot;; 
-        import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from &quot;https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js&quot;;
-        import { getFirestore, doc, setDoc, onSnapshot, getDoc, setLogLevel, deleteField } from &quot;https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js&quot;;
+        import { initializeApp as fbInitializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js"; 
+        import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        import { getFirestore, doc, setDoc, onSnapshot, getDoc, setLogLevel, deleteField } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
         
         // Tetapan Global Firebase
         const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
@@ -271,13 +254,13 @@
         // Data Aplikasi
         let trackerData = {}; // Data pengesan semasa (bulan ini)
         let appConfig = {
-            studentName: &quot;AMIR&quot;,
-            schoolLocation: &quot;Lokasi Sekolah Pelatih Contoh&quot;
+            studentName: "AMIR",
+            schoolLocation: "Lokasi Sekolah Pelatih Contoh"
         };
         let currentMonthDate = new Date(); // Objek tarikh untuk menjejaki bulan/tahun semasa
 
         // --------------------------------------------------------
-        // FIREBASE &amp; AUTHENTICATION
+        // FIREBASE & AUTHENTICATION
         // --------------------------------------------------------
 
         async function initFirebase() {
@@ -288,7 +271,7 @@
                 auth = getAuth(app);
 
                 // Autentikasi pengguna
-                onAuthStateChanged(auth, (user) =&gt; {
+                onAuthStateChanged(auth, (user) => {
                     if (user) {
                         userId = user.uid;
                         isAuthReady = true;
@@ -297,33 +280,33 @@
                         setupMonthlyDataListener();
                     } else {
                         if (initialAuthToken) {
-                            console.warn(&quot;Autentikasi token custom gagal, mencuba secara anonim...&quot;);
+                            console.warn("Autentikasi token custom gagal, mencuba secara anonim...");
                         }
-                        signInAnonymously(auth).then(() =&gt; {
-                        }).catch((error) =&gt; {
-                             console.error(&quot;Gagal log masuk secara anonim:&quot;, error);
+                        signInAnonymously(auth).then(() => {
+                        }).catch((error) => {
+                             console.error("Gagal log masuk secara anonim:", error);
                              userId = null;
                              isAuthReady = true;
                              document.getElementById('user-id-display').textContent = `Gagal log masuk.`;
-                             showMessageModal(&quot;Ralat Log Masuk&quot;, &quot;Gagal log masuk. Sila cuba lagi.&quot;);
+                             showMessageModal("Ralat Log Masuk", "Gagal log masuk. Sila cuba lagi.");
                         });
                     }
                 });
 
                 if (initialAuthToken) {
-                    await signInWithCustomToken(auth, initialAuthToken).catch(error =&gt; {
-                        console.warn(&quot;signInWithCustomToken gagal:&quot;, error);
+                    await signInWithCustomToken(auth, initialAuthToken).catch(error => {
+                        console.warn("signInWithCustomToken gagal:", error);
                     });
                 }
                 
             } catch (error) {
-                console.error(&quot;Ralat permulaan Firebase:&quot;, error);
-                showMessageModal(&quot;Ralat Firebase&quot;, &quot;Gagal memulakan perkhidmatan Firebase. Semak konsol untuk butiran.&quot;);
+                console.error("Ralat permulaan Firebase:", error);
+                showMessageModal("Ralat Firebase", "Gagal memulakan perkhidmatan Firebase. Semak konsol untuk butiran.");
             }
         }
 
         // --------------------------------------------------------
-        // DATA PATHS &amp; FIREBASE OPERATIONS
+        // DATA PATHS & FIREBASE OPERATIONS
         // --------------------------------------------------------
 
         function getUserConfigDocRef() {
@@ -352,23 +335,23 @@
                 }
                 updateHeaderUI();
             } catch (error) {
-                console.error(&quot;Ralat memuatkan konfigurasi aplikasi:&quot;, error);
+                console.error("Ralat memuatkan konfigurasi aplikasi:", error);
             }
         }
 
         async function saveAppConfig() {
             const configRef = getUserConfigDocRef();
             if (!configRef) {
-                showMessageModal(&quot;Ralat&quot;, &quot;Gagal menyimpan: Pengguna tidak disahkan.&quot;);
+                showMessageModal("Ralat", "Gagal menyimpan: Pengguna tidak disahkan.");
                 return;
             }
             try {
                 await setDoc(configRef, appConfig);
                 updateHeaderUI();
-                showMessageModal(&quot;Berjaya&quot;, &quot;Tetapan aplikasi telah disimpan!&quot;);
+                showMessageModal("Berjaya", "Tetapan aplikasi telah disimpan!");
             } catch (error) {
-                console.error(&quot;Ralat menyimpan konfigurasi aplikasi:&quot;, error);
-                showMessageModal(&quot;Ralat Penyimpanan&quot;, &quot;Gagal menyimpan tetapan ke pangkalan data.&quot;);
+                console.error("Ralat menyimpan konfigurasi aplikasi:", error);
+                showMessageModal("Ralat Penyimpanan", "Gagal menyimpan tetapan ke pangkalan data.");
             }
         }
 
@@ -384,7 +367,7 @@
             }
 
             // Memasang pendengar baru
-            window.monthlyUnsubscribe = onSnapshot(dataRef, (docSnap) =&gt; {
+            window.monthlyUnsubscribe = onSnapshot(dataRef, (docSnap) => {
                 if (docSnap.exists()) {
                     trackerData = docSnap.data();
                 } else {
@@ -393,10 +376,10 @@
                 renderGrid();
                 calculateStats();
                 updateHeaderUI(); // Untuk kemas kini tarikh
-            }, (error) =&gt; {
-                console.error(&quot;Ralat pendengar data bulanan:&quot;, error);
-                if (error.code !== &quot;permission-denied&quot;) {
-                    showMessageModal(&quot;Ralat Data&quot;, &quot;Gagal menyambung ke data masa nyata.&quot;);
+            }, (error) => {
+                console.error("Ralat pendengar data bulanan:", error);
+                if (error.code !== "permission-denied") {
+                    showMessageModal("Ralat Data", "Gagal menyambung ke data masa nyata.");
                 }
             });
         }
@@ -404,7 +387,7 @@
         // Simpan/Kemaskini satu entri sel
         async function saveCellData(day, timeIndex, code) {
             if (!isAuthReady || !userId) {
-                showMessageModal(&quot;Ralat&quot;, &quot;Gagal menyimpan: Sila tunggu pengesahan.&quot;);
+                showMessageModal("Ralat", "Gagal menyimpan: Sila tunggu pengesahan.");
                 return;
             }
             
@@ -421,8 +404,8 @@
             try {
                 await setDoc(dataRef, updatePayload, { merge: true });
             } catch (error) {
-                console.error(&quot;Ralat menyimpan data sel:&quot;, error);
-                showMessageModal(&quot;Ralat Penyimpanan&quot;, &quot;Gagal menyimpan data ke pangkalan data.&quot;);
+                console.error("Ralat menyimpan data sel:", error);
+                showMessageModal("Ralat Penyimpanan", "Gagal menyimpan data ke pangkalan data.");
             }
         }
 
@@ -447,7 +430,7 @@
 
         function formatDateRange(date) {
             const daysInMonth = calculateDaysInMonth(date);
-            const monthNames = [&quot;Januari&quot;, &quot;Februari&quot;, &quot;Mac&quot;, &quot;April&quot;, &quot;Mei&quot;, &quot;Jun&quot;, &quot;Julai&quot;, &quot;Ogos&quot;, &quot;September&quot;, &quot;Oktober&quot;, &quot;November&quot;, &quot;Disember&quot;];
+            const monthNames = ["Januari", "Februari", "Mac", "April", "Mei", "Jun", "Julai", "Ogos", "September", "Oktober", "November", "Disember"];
             const monthName = monthNames[date.getMonth()];
             const year = date.getFullYear();
 
@@ -456,8 +439,8 @@
         }
         
         function updateHeaderUI() {
-            document.getElementById('student-name-display').textContent = appConfig.studentName || &quot;Pelajar&quot;;
-            document.getElementById('school-location-display').textContent = appConfig.schoolLocation || &quot;Lokasi Sekolah Tidak Ditetapkan&quot;;
+            document.getElementById('student-name-display').textContent = appConfig.studentName || "Pelajar";
+            document.getElementById('school-location-display').textContent = appConfig.schoolLocation || "Lokasi Sekolah Tidak Ditetapkan";
             document.getElementById('current-month-display').textContent = formatDateRange(currentMonthDate);
         }
         
@@ -476,7 +459,7 @@
                 }
             }
 
-            const successRate = totalAttempts &gt; 0 ? (totalSuccess / totalAttempts) * 100 : 0;
+            const successRate = totalAttempts > 0 ? (totalSuccess / totalAttempts) * 100 : 0;
 
             // Kemas kini UI Statistik
             const percentageText = `${Math.round(successRate)}%`;
@@ -507,7 +490,7 @@
         // Fungsi untuk Export Data ke JSON
         function exportDataToJson() {
             if (!isAuthReady) {
-                showMessageModal(&quot;Ralat&quot;, &quot;Sila tunggu sehingga pengesahan data selesai.&quot;);
+                showMessageModal("Ralat", "Sila tunggu sehingga pengesahan data selesai.");
                 return;
             }
             
@@ -524,10 +507,10 @@
             try {
                 const jsonString = JSON.stringify(exportObject, null, 2);
                 downloadFile(filename, jsonString);
-                showMessageModal(&quot;Export Berjaya&quot;, `Data bulan ${currentMonthDate.getMonth() + 1}/${currentMonthDate.getFullYear()} telah dimuat turun sebagai ${filename}.`);
+                showMessageModal("Export Berjaya", `Data bulan ${currentMonthDate.getMonth() + 1}/${currentMonthDate.getFullYear()} telah dimuat turun sebagai ${filename}.`);
             } catch (error) {
-                console.error(&quot;Ralat semasa export data:&quot;, error);
-                showMessageModal(&quot;Ralat Export&quot;, &quot;Gagal menghasilkan fail JSON.&quot;);
+                console.error("Ralat semasa export data:", error);
+                showMessageModal("Ralat Export", "Gagal menghasilkan fail JSON.");
             }
         }
         
@@ -537,12 +520,12 @@
             if (!file) return;
 
             const reader = new FileReader();
-            reader.onload = async (e) =&gt; {
+            reader.onload = async (e) => {
                 try {
                     const importedData = JSON.parse(e.target.result);
 
                     if (!importedData.trackerData || typeof importedData.trackerData !== 'object') {
-                        throw new Error(&quot;Struktur data tidak sah.&quot;);
+                        throw new Error("Struktur data tidak sah.");
                     }
                     
                     // Simpan data ke Firestore untuk bulan semasa
@@ -556,11 +539,14 @@
                         await saveAppConfig();
                     }
                     
-                    showMessageModal(&quot;Import Berjaya&quot;, `Data dari fail &quot;${file.name}&quot; telah berjaya dimuat naik ke bulan semasa!`);
+                    showMessageModal("Import Berjaya", `Data dari fail "${file.name}" telah berjaya dimuat naik ke bulan semasa!`);
 
                 } catch (error) {
-                    console.error(&quot;Ralat semasa import data:&quot;, error);
-                    showMessageModal(&quot;Ralat Import&quot;, `Gagal memproses fail: ${error.message}. Pastikan ia adalah fail JSON yang sah.`);
+                    console.error("Ralat semasa import data:", error);
+                    showMessageModal("Ralat Import", `Gagal memproses fail: ${error.message}. Pastikan ia adalah fail JSON yang sah.`);
+                } finally {
+                    // Reset input file agar acara 'change' dicetuskan semula jika fail yang sama dipilih
+                    event.target.value = '';
                 }
             };
             reader.readAsText(file);
@@ -583,10 +569,10 @@
             document.getElementById('edit-modal-context').textContent = contextText;
 
             // Logik untuk menutup modal
-            const closeModal = () =&gt; modal.classList.add('hidden');
+            const closeModal = () => modal.classList.add('hidden');
 
             // FUNGSI UTAMA UNTUK KEMASKINI
-            const updateAndClose = (code) =&gt; {
+            const updateAndClose = (code) => {
                 saveCellData(day, timeIndex, code); // code=null untuk buang data
                 closeModal();
             }
@@ -594,19 +580,20 @@
             // Tetapkan event listeners untuk butang kod (0, 1, 2)
             const codeButtons = modal.querySelectorAll('.code-btn');
             
-            codeButtons.forEach(button =&gt; {
+            // Klon dan ganti butang untuk mengelakkan pendengar berganda
+            codeButtons.forEach(button => {
                 const newButton = button.cloneNode(true);
                 button.parentNode.replaceChild(newButton, button);
                 
                 const code = parseInt(newButton.getAttribute('data-code'));
-                newButton.addEventListener('click', () =&gt; updateAndClose(code));
+                newButton.addEventListener('click', () => updateAndClose(code));
             });
 
             // Tetapkan event listener untuk butang Buang Data
             const removeButton = document.getElementById('remove-data-btn');
             const newRemoveButton = removeButton.cloneNode(true);
             removeButton.parentNode.replaceChild(newRemoveButton, removeButton);
-            newRemoveButton.addEventListener('click', () =&gt; updateAndClose(null)); // Kod null untuk buang
+            newRemoveButton.addEventListener('click', () => updateAndClose(null)); // Kod null untuk buang
             
             // Tetapkan event listener untuk butang Batal
             const cancelButton = document.getElementById('cancel-edit-btn');
@@ -626,13 +613,13 @@
             
             if (code === 2) {
                 cellElement.classList.add('code-2');
-                cellElement.innerHTML = '&lt;span&gt;⭐&lt;/span&gt;';
+                cellElement.innerHTML = '<span>⭐</span>';
             } else if (code === 1) {
                 cellElement.classList.add('code-1');
-                cellElement.innerHTML = '&lt;span&gt;🤔&lt;/span&gt;';
+                cellElement.innerHTML = '<span>🤔</span>';
             } else if (code === 0) {
                 cellElement.classList.add('code-0');
-                cellElement.innerHTML = '&lt;span&gt;💧&lt;/span&gt;';
+                cellElement.innerHTML = '<span>💧</span>';
             } else {
                 cellElement.classList.add('code-empty');
                 cellElement.innerHTML = '';
@@ -662,7 +649,7 @@
             dayHeader.appendChild(emptyCell);
 
             // Sel Hari (1 hingga akhir bulan)
-            for (let day = 1; day &lt;= daysInMonth; day++) {
+            for (let day = 1; day <= daysInMonth; day++) {
                 let dayCell = document.createElement('div');
                 dayCell.textContent = day;
                 
@@ -677,7 +664,7 @@
 
 
             // 2. Baris Data (Masa + Sel Data)
-            TIME_SLOTS.forEach((time, timeIndex) =&gt; {
+            TIME_SLOTS.forEach((time, timeIndex) => {
                 const row = document.createElement('div');
                 row.classList.add('contents');
 
@@ -687,14 +674,14 @@
                 row.appendChild(timeCell);
 
                 // Sel Data (Bilangan Hari)
-                for (let day = 1; day &lt;= daysInMonth; day++) {
+                for (let day = 1; day <= daysInMonth; day++) {
                     let dataCell = document.createElement('div');
                     const key = `${day}_${timeIndex}`;
                     const initialCode = trackerData[key];
                     
                     updateCellVisual(dataCell, initialCode);
                     
-                    dataCell.addEventListener('click', () =&gt; {
+                    dataCell.addEventListener('click', () => {
                         handleCellClick(day, timeIndex, dataCell);
                     });
 
@@ -717,8 +704,8 @@
         }
 
         function handleSaveSettings() {
-            appConfig.studentName = document.getElementById('setting-student-name').value.trim() || &quot;Pelajar&quot;;
-            appConfig.schoolLocation = document.getElementById('setting-school-location').value.trim() || &quot;Lokasi Sekolah Tidak Ditetapkan&quot;;
+            appConfig.studentName = document.getElementById('setting-student-name').value.trim() || "Pelajar";
+            appConfig.schoolLocation = document.getElementById('setting-school-location').value.trim() || "Lokasi Sekolah Tidak Ditetapkan";
             
             saveAppConfig();
             document.getElementById('settings-modal').classList.add('hidden');
@@ -736,18 +723,18 @@
         function setupEventListeners() {
             // Butang Edit Tetapan
             document.getElementById('edit-settings-btn').addEventListener('click', showSettingsModal);
-            document.getElementById('cancel-settings-btn').addEventListener('click', () =&gt; document.getElementById('settings-modal').classList.add('hidden'));
+            document.getElementById('cancel-settings-btn').addEventListener('click', () => document.getElementById('settings-modal').classList.add('hidden'));
             document.getElementById('save-settings-btn').addEventListener('click', handleSaveSettings);
 
             // Butang Navigasi Bulan
-            document.getElementById('prev-month-btn').addEventListener('click', () =&gt; handleMonthChange(-1));
-            document.getElementById('next-month-btn').addEventListener('click', () =&gt; handleMonthChange(1));
+            document.getElementById('prev-month-btn').addEventListener('click', () => handleMonthChange(-1));
+            document.getElementById('next-month-btn').addEventListener('click', () => handleMonthChange(1));
 
             // Butang Batal Modal Edit
-            document.getElementById('cancel-edit-btn').addEventListener('click', () =&gt; document.getElementById('edit-modal').classList.add('hidden'));
+            document.getElementById('cancel-edit-btn').addEventListener('click', () => document.getElementById('edit-modal').classList.add('hidden'));
 
             // Import Data: Mencetuskan klik pada input fail tersembunyi
-            document.getElementById('import-data-btn').addEventListener('click', () =&gt; {
+            document.getElementById('import-data-btn').addEventListener('click', () => {
                 document.getElementById('import-file-input').click();
             });
             // Import Data: Mengendalikan fail yang dipilih
@@ -757,38 +744,38 @@
             document.getElementById('export-data-btn').addEventListener('click', exportDataToJson);
 
             // Print
-            document.getElementById('print-btn').addEventListener('click', () =&gt; {
+            document.getElementById('print-btn').addEventListener('click', () => {
                 window.print();
             });
 
             // Download PDF (Menggunakan Print dengan Arahan)
-            document.getElementById('download-pdf-btn').addEventListener('click', () =&gt; {
+            document.getElementById('download-pdf-btn').addEventListener('click', () => {
                 showMessageModal(
-                    &quot;Muat Turun PDF&quot;, 
-                    &quot;Sila tunggu dialog cetakan muncul. Pilih 'Simpan sebagai PDF' (Save as PDF) sebagai destinasi untuk memuat turun data anda.&quot;
+                    "Muat Turun PDF", 
+                    "Sila tunggu dialog cetakan muncul. Pilih 'Simpan sebagai PDF' (Save as PDF) sebagai destinasi untuk memuat turun data anda."
                 );
                 // Beri sedikit masa untuk modal ditutup sebelum mencetuskan cetakan
-                setTimeout(() =&gt; {
+                setTimeout(() => {
                     window.print();
                 }, 500); 
             });
 
             // Set Semula Data BULAN SEMASA (Diaktifkan)
-            document.getElementById('reset-data-btn').addEventListener('click', async () =&gt; {
+            document.getElementById('reset-data-btn').addEventListener('click', async () => {
                 const monthYear = `${currentMonthDate.getMonth() + 1}/${currentMonthDate.getFullYear()}`;
                 
                 if (window.confirm(`ADAKAH ANDA PASTI mahu menetapkan semula SEMUA data untuk bulan ${monthYear}? Tindakan ini TIDAK BOLEH ditarik balik!`)) {
                     if (!isAuthReady || !userId) {
-                        showMessageModal(&quot;Ralat&quot;, &quot;Gagal menetapkan semula: Sila tunggu pengesahan.&quot;);
+                        showMessageModal("Ralat", "Gagal menetapkan semula: Sila tunggu pengesahan.");
                         return;
                     }
                     try {
                         const dataRef = getMonthlyDataDocRef(currentMonthDate);
                         await setDoc(dataRef, {}); 
-                        showMessageModal(&quot;Set Semula Berjaya&quot;, `Semua data untuk bulan ${monthYear} telah ditetapkan semula.`);
+                        showMessageModal("Set Semula Berjaya", `Semua data untuk bulan ${monthYear} telah ditetapkan semula.`);
                     } catch (error) {
-                         console.error(&quot;Ralat menetapkan semula data:&quot;, error);
-                         showMessageModal(&quot;Ralat&quot;, &quot;Gagal menetapkan semula data.&quot;);
+                         console.error("Ralat menetapkan semula data:", error);
+                         showMessageModal("Ralat", "Gagal menetapkan semula data.");
                     }
                 }
             });
@@ -806,10 +793,10 @@
 
         window.onload = initializeApp;
 
-    &lt;/script&gt;
+    </script>
     
-    &lt;!-- Pendaftaran Service Worker untuk PWA / Offline (Diminta oleh Pengguna) --&gt;
-    &lt;script&gt;
+    <!-- Pendaftaran Service Worker untuk PWA / Offline (Diminta oleh Pengguna) -->
+    <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js').then(function(reg) {
                 console.log('Service Worker didaftarkan dengan skop: ', reg.scope);
@@ -817,8 +804,6 @@
                 console.error('Pendaftaran Service Worker gagal: ', error);
             });
         }
-    &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+    </script>
 </body>
 </html>
